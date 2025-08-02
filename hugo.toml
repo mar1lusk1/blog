@@ -1,0 +1,61 @@
+baseURL = "https://example.org/"
+languageCode = "en-us"
+title = "mario rosell blog"
+theme = "not-much"
+author = "Mario Rosell"
+copyright = "All content under the public license unless otherwise noted"
+enableInlineShortcodes = true
+ignoreErrors = ["error-remote-getjson"]
+sectionPagesMenu = "main"
+
+[pagination]
+	pagerSize = 4
+
+[params]
+	theme = "auto"
+	palette = "eineink	showThemeNotice = true
+	showPostsSummary = true
+
+	[menu]
+		[[menu.main]]
+			identifier = "home"
+			name = "home"
+			title = "Home"
+			url = "/"
+			weight = 1
+		[[menu.main]]
+			identifier = "about"
+			name = "about"
+			title = "About"
+			url = "/about/"
+			weight = 2
+		[[menu.main]]
+			identifier = "posts"
+			name = "posts"
+			title = "Posts"
+			url = "/posts/"
+			weight = 3
+		[[menu.main]]
+			identifier = "tags"
+			name = "tags"
+			title = "Tags"
+			url = "/tags/"
+			weight = 4
+		[[menu.main]]
+			identifier = "github"
+			name = "github"
+			title = "GitHub"
+			url = "https://github.com/mar1lusk1/"
+			weight = 5
+		[[menu.main]]
+			identifier = "email"
+			name = "email"
+			title = "E-mail"
+			url = "mailto:mar1lusk1@proton.me"
+			weight = 6
+		[[menu.main]]
+			identifier = "youtube"
+			name = "youtube"
+			title = "YouTube"
+			url = "https://www.youtube.com/channel/UCDMui4jJTYSkwPgfcTv6yLw"
+			weight = 7
