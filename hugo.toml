@@ -11,6 +11,10 @@ sectionPagesMenu = "main"
 [pagination]
 	pagerSize = 4
 
+[caches]
+	[caches.images]
+		dir = ":cacheDir/images"
+
 [params]
 	theme = "auto"
 	palette = "eineink	showThemeNotice = true
