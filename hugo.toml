@@ -17,7 +17,7 @@ sectionPagesMenu = "main"
 
 [params]
 	theme = "auto"
-	palette = "eineink"
+	palette = "eink"
 	showThemeNotice = true
 	showPostsSummary = true
 
@@ -64,3 +64,13 @@ sectionPagesMenu = "main"
 			title = "YouTube"
 			url = "https://www.youtube.com/channel/UCDMui4jJTYSkwPgfcTv6yLw"
 			weight = 7
+
+	[params.giscus]
+		repository = "mar1lusk1/mar1lusk1.github.io"
+		repositoryId = "R_kgDOPXRJKA"
+		categoryName = "giscus"
+		categoryId = "DIC_kwDOPXRJKM4CtthG"
+		mapping = "pathname"
+		theme = "preferred_color_scheme"
+		language = "en"
+		lazyLoading = true
