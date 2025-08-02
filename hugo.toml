@@ -17,7 +17,8 @@ sectionPagesMenu = "main"
 
 [params]
 	theme = "auto"
-	palette = "eineink	showThemeNotice = true
+	palette = "eineink"
+	showThemeNotice = true
 	showPostsSummary = true
 
 	[menu]
